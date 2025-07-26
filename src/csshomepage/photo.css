@@ -1,0 +1,106 @@
+.container-photo {
+    position: absolute;
+    width: 1239px;
+    height: 866px;
+    left: 140px;
+    top: 2317px;
+    background: #F0F0F0;
+    border-radius: 40px;
+  }
+  
+  .photoH1 {
+    position: absolute;
+    width: 687px;
+    height: 58px;
+    margin-left: 350px;
+    margin-top: 40px;
+    font-family: 'Integral CF';
+    font-size: 48px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #000000;
+    font-weight: bold;
+  }
+  
+  .casual,
+  .formal,
+  .party,
+  .gym {
+    position: absolute;
+    background: #FFFFFF;
+    border-radius: 20px;
+    transition:  0.3s ;
+    cursor: pointer;
+  }
+  
+  .casual:hover,
+  .formal:hover,
+  .party:hover,
+  .gym:hover {
+    transform: scale(1.03);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  }
+  
+  .casual {
+    width: 407px;
+    height: 289px;
+    left: 64px;
+    top: 192px;
+  }
+  
+  .formal {
+    width: 684px;
+    height: 289px;
+    left: 491px;
+    top: 192px;
+  }
+  
+  .party {
+    width: 684px;
+    height: 289px;
+    left: 64px;
+    top: 501px;
+  }
+  
+  .gym {
+    width: 407px;
+    height: 289px;
+    left: 768px;
+    top: 501px;
+  }
+  
+  .casualh1,
+  .Formalh1,
+  .Partyh1,
+  .Gymh1 {
+    position: absolute;
+    width: 114px;
+    height: 49px;
+    font-family: 'Satoshi';
+    font-size: 36px;
+    line-height: 49px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+  }
+  
+  .casualh1 {
+    margin-top: 210px;
+    margin-left: 100px;
+  }
+  
+  .Formalh1 {
+    margin-top: 210px;
+    margin-left: 600px;
+  }
+  
+  .Partyh1 {
+    margin-top: 540px;
+    margin-left: 100px;
+  }
+  
+  .Gymh1 {
+    margin-top: 550px;
+    margin-left: 800px;
+  }

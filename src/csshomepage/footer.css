@@ -1,0 +1,152 @@
+.f-container {
+
+   align-items: center;
+    width: 100%;
+    background: #F0F0F0;
+    padding: 60px 100px;
+    box-sizing: border-box;
+  }
+
+  .f-detail {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 100px;
+  }
+  
+  .f-left {
+    max-width: 300px;
+  }
+  
+  .f-h1 {
+    font-family: 'Integral CF';
+    font-size: 28px;
+    font-weight: 800;
+    margin-bottom: 12px;
+    color: black;
+  }
+  
+  .f-desc {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 20px;
+    line-height: 1.6;
+  }
+  
+  .f-icons {
+    display: flex;
+    gap: 12px;
+  }
+  
+  .icon-box {
+    width: 36px;
+    height: 36px;
+    background-color: #E0E0E0;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.2s;
+    cursor: pointer;
+  }
+  
+  .icon-box:hover {
+    background-color: black;
+    color: white;
+  }
+  
+  .icon-box:hover svg {
+    fill: white;
+  }
+  
+  .f-links {
+    display: flex;
+    gap: 150px;
+    flex-wrap: wrap;
+  }
+  
+  .f-links ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .f-links span {
+    display: block;
+    font-weight: 600;
+    font-size: 17px;
+    margin-bottom: 12px;
+    color: #000;
+  }
+  
+  .f-links li {
+    font-size: 13px;
+    color: #888;
+    margin-bottom: 8px;
+    cursor: pointer;
+  }
+  
+  .f-line {
+    border: none;
+    border-top: 1px solid #ddd;
+    margin: 40px 0 20px;
+  }
+  
+  .f-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .f-copy {
+    font-size: 13px;
+    color: #888;
+    font-weight: 400;
+  }
+  
+  .f-payments {
+    display: flex;
+    gap: 12px;
+    cursor: pointer;
+  }
+  .footer-alt {
+  background-color: #000; 
+  color: white;
+}
+
+
+
+
+.footer-alt {
+  background: rgba(240, 240, 240, 1);
+  color: rgb(3, 3, 3);
+  margin-top: 300px;
+
+}
+
+.footer-alt .f-h1,
+.footer-alt .f-desc,
+.footer-alt .f-copy {
+  color: rgb(9, 9, 9);
+}
+
+.footer-alt .f-links span {
+  color: #070707;
+}
+
+.footer-alt .f-links li {
+  color: #040404;
+}
+
+.footer-alt .icon-box {
+  background-color: #333;
+}
+
+.footer-alt .icon-box:hover {
+  background-color: #632323;
+}
+
+.footer-alt .icon-box:hover svg {
+  fill: rgb(255, 255, 255);
+}

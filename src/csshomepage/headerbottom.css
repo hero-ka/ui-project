@@ -1,0 +1,43 @@
+.header-bottom-container {
+    position: relative;
+ 
+    width: 1520px;
+    height: 122px;
+    background: #000000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 130px;
+    padding: 0 40px;
+    box-sizing: border-box;
+    z-index: 10;
+    flex-wrap: nowrap;
+    padding-right: 170px;
+    margin-bottom: -60px;
+  }
+  
+  .icon-brand,
+  .zara,
+  .vercace,
+  .gucco,
+  .prada,
+  .calvinklein {
+    flex-shrink: 0;
+    height: 40px;
+    min-width: 80px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .icon-brand svg,
+  .zara svg,
+  .vercace svg,
+  .gucco svg,
+  .prada svg,
+  .calvinklein svg {
+    height: 100%;
+    width: auto;
+    fill: white;
+  }

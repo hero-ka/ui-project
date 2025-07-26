@@ -1,0 +1,35 @@
+.top-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 110;
+  background-color: black;
+  color: white;
+  height: 40px;
+  padding: 0 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 15px;
+  gap: 12px;
+}
+
+.top-bar p {
+  margin: 0;
+}
+
+.top-bar span {
+  font-weight: 600;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.close-icon {
+  font-size: 18px;
+  cursor: pointer;
+  margin-left: 20px;
+}
+.h3{
+  color: rgb(255, 255, 255);
+}
